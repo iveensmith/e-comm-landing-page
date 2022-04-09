@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lobster&family=Poppins:wght@300;400&family=Raleway:ital,wght@0,500;1,300;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+}
+
+.signup {
+    margin-right: 5em;
+}
+
+.logo {
+    margin-left: 3em;
+}
+ 
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}  
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    align-self: center;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    padding: 0 20px;
+    color: #1f2937;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+li a::after {
+    content: '';
+    display: block;
+    height: 4px;
+    width: 0;
+    background: #c4c4f7;
+    transition:all .5s;
+}
+
+a:hover::after {
+    width: 100%;
+}
+
+section {
+    display: flex;
+    border-top: 3px solid #e5e7eb;
+    height: calc(100vh - 100px);
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hero-img{
+    max-width: 700px;
+    height: auto;
+}
+
+.sec-left {
+    width: 35%;
+}
+
+h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #1f2937;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #ac860a;
+    letter-spacing: 5px;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #333;
+    margin: 20px 0;
+    line-height: 30px;
+}
+
+.btn {
+    padding: 15px 30px;
+    background: #c4c4f7;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 50px;
+}
